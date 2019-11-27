@@ -9,8 +9,11 @@ export default {
   name: 'App',
   created() {
       setTimeout(() => {
-          console.log(1)
+          console.log("箭头函数")
       },1000)
   },
+  mounted() {
+
+  }
 }
 </script>
